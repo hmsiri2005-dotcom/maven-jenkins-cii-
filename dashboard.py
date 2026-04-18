@@ -36,7 +36,7 @@ st.metric("Okay / Neutral Reviews", okay_count)
 
 st.subheader("Sentiment Distribution")
 st.bar_chart({
-    "Positive": [positive_count],
-    "Negative": [negative_count],
-    "Okay": [okay_count]
+    "Positive": [positivecount],
+    "Negative": [negativecount],
+    "Okay": [no]
 })
